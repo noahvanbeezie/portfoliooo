@@ -1,0 +1,29 @@
+.headerDiv {
+  background-color: #4d194d;
+  position: absolute;
+  height: 300px;
+  width: 50vw;
+}
+
+.headerCircle {
+  background-color: #4d194d;
+  position: absolute;
+  top: 290px;
+  left: 40vw;
+  height: 300px;
+  width: 20.833333333333332vw;
+  border-radius: 300px;
+}
+
+.hello {
+  position: absolute;
+  font-size: 150px;
+  top: -100px;
+}
+
+.greeting {
+  position: absolute;
+  top: 160px;
+  font-size: 60px;
+}
+/*# sourceMappingURL=Header.css.map */

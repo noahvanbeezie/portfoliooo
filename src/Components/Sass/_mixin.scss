@@ -1,0 +1,8 @@
+@mixin backgroundColor(){
+    background-color: #4d194d;
+}
+@mixin flexHorizontal(){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

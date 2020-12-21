@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAA;ECDJ,gBAAgB,EAAE,OAAO;EDGzB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,CAAC;EACR,GAAG,EAAE,KAAK;EACV,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,GAAG;CACb;;AACD,AAAA,cAAc,CAAA;ECTV,gBAAgB,EAAE,OAAO;EDWzB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,GAAG;EACT,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,mBAAmB;EAC1B,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "AboutMe.scss",
+        "../Sass/_mixin.scss"
+    ],
+    "names": [],
+    "file": "AboutMe.css"
+}

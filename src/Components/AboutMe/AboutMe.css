@@ -1,0 +1,19 @@
+.aboutme {
+  background-color: #4d194d;
+  position: absolute;
+  right: 0;
+  top: 130vh;
+  height: 500px;
+  width: 70%;
+}
+
+.aboutmeCircle {
+  background-color: #4d194d;
+  position: absolute;
+  top: 130vh;
+  left: 12%;
+  height: 500px;
+  width: 34.72222222222222vw;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=AboutMe.css.map */

@@ -3,8 +3,10 @@ import './Projects.css'
 
 function Projects(){
     return(
-        <div>
-            <div>
+        <div className='projects'>
+            <div className='projectsTopCircle'></div>
+            <div className='projectsBottomCircle'></div>
+            <div className='projectsDiv'>
                 <h1>Projects</h1>
                 <div>
                     <img></img>

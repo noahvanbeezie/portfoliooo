@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,OAAO,CAAA;EACH,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,KAAK;EACV,KAAK,EAAE,IACX;CAAC;;AACD,AAAA,UAAU,CAAA;ECNN,gBAAgB,EAAE,OAAO;EDQzB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACf;;AACD,AAAA,aAAa,CAAA;ECXT,gBAAgB,EAAE,OAAO;EDazB,aAAa,EAAE,GAAG;EAClB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;EACT,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACf",
     "sources": [
-        "Skills.scss"
+        "Skills.scss",
+        "../Sass/_mixin.scss"
     ],
     "names": [],
     "file": "Skills.css"

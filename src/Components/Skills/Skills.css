@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=Skills.css.map */
+.skills {
+  position: absolute;
+  top: 250vh;
+  width: 100%;
+}
+
+.skillsDiv {
+  background-color: #4d194d;
+  width: 50%;
+  height: 80vh;
+}
+
+.skillsCircle {
+  background-color: #4d194d;
+  border-radius: 50%;
+  position: absolute;
+  top: 3vh;
+  left: 36%;
+  width: 30%;
+  height: 80vh;
+}
+/*# sourceMappingURL=Skills.css.map */

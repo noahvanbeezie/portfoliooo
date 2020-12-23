@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=Projects.css.map */
+.projects {
+  position: absolute;
+  top: 380vh;
+}
+
+.projectsDiv {
+  background-color: #4d194d;
+  position: absolute;
+  width: 70vw;
+  height: 90vh;
+  left: 15vw;
+}
+
+.projectsTopCircle {
+  background-color: #4d194d;
+  position: absolute;
+  width: 70vw;
+  top: -5vh;
+  left: 15vw;
+  height: 10vh;
+  border-radius: 50%;
+}
+
+.projectsBottomCircle {
+  background-color: #4d194d;
+  position: absolute;
+  width: 70vw;
+  top: 85vh;
+  left: 15vw;
+  height: 10vh;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Projects.css.map */

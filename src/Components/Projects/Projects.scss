@@ -1,0 +1,31 @@
+@import '../Sass//mixin';
+
+.projects{
+    position: absolute;
+    top: 380vh;
+}
+.projectsDiv{
+    @include backgroundColor();
+    position: absolute;
+    width: 70vw;
+    height: 90vh;
+    left: 15vw;
+}
+.projectsTopCircle{
+    @include backgroundColor();
+    position: absolute;
+    width: 70vw;
+    top: -5vh;
+    left: 15vw;
+    height: 10vh;
+    border-radius: 50%;
+}
+.projectsBottomCircle{
+    @include backgroundColor();
+    position: absolute;
+    width: 70vw;
+    top: 85vh;
+    left: 15vw;
+    height: 10vh;
+    border-radius: 50%;
+}

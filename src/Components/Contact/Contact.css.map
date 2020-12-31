@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,QAAQ,CAAA;EAEJ,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,GAAG;CAEd",
     "sources": [
-        "Contact.scss"
+        "Contact.scss",
+        "../Sass/_mixin.scss"
     ],
     "names": [],
     "file": "Contact.css"

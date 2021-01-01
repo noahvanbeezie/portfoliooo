@@ -14,8 +14,21 @@
     @include backgroundColor();
     border-radius: 50%;
     position: absolute;
-    top: 3vh;
-    left: 36%;
+    top: 0vh;
+    left: 35.5%;
     width: 30%;
     height: 80vh;
+}
+.skillsHeadText{
+    @include headerFont();
+    position: absolute;
+    top: -20px;
+    
+}
+.skillsHolder{
+    @include secondaryBackgroundColor();
+    position: absolute;
+    top: 120px;
+    width: 700px;
+    height: 400px;
 }

@@ -7,7 +7,8 @@ function Header(){
             <div className='headerCircle'>
             </div>
             <div className='headerDiv'>
-                <h1 className='hello'>Hello!</h1>
+                <h1 className='hello'>Hello</h1>
+                <h2 className='name'>I'm Noah Van Buskirk</h2>
                 <h2 className='greeting'>Welcome to my portfolio!</h2>
             </div>
         </div>

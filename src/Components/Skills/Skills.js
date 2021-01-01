@@ -6,14 +6,15 @@ function Skills(){
         <div className='skills'>
             <div className='skillsCircle'></div>
             <div className='skillsDiv'>
-                <h1>Skills</h1>
-                <div>
-                    <img></img>
-                    <h2>Example Skill</h2>
-                    <p></p>
+                <h1 className='skillsHeadText'>Skills</h1>
+                <div className='skillsHolder'>
+                    <div className='skillDiv'>
+                        <img></img>
+                        <h2>Example Skill</h2>
+                        <p></p>
+                    </div>
                 </div>
             </div>
-
         </div>
     )
 }

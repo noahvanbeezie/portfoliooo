@@ -7,11 +7,15 @@ function Projects(){
             <div className='projectsTopCircle'></div>
             <div className='projectsBottomCircle'></div>
             <div className='projectsDiv'>
-                <h1>Projects</h1>
-                <div>
-                    <img></img>
-                    <h2>Example Project</h2>
-                    <p>Project Info</p>
+                <h1 className='projectsHeadText'>Projects</h1>
+                <div className='projectsHolder'>
+                    <div className='projectSummary'>
+                        <h2 className='projectName'>Example Project</h2>
+                        <p className='projectText'>Project Info</p>
+                    </div>
+                    <div className='projectImage'>
+                        <img></img>
+                    </div>
                 </div>
             </div>
         </div>

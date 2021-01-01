@@ -33,7 +33,6 @@ function Nav(){
     return(
         <div>
             <div className='nav'>
-                <h1>Nav</h1>
                 {isNavOpen === false && (
                     <Button
                         className={style.navButton}
@@ -51,14 +50,33 @@ function Nav(){
                     </Button>
                     <List>
                         <Divider/>
-                        <Button>
-                            <ListItem>
+                            <ListItem button>
                                 <ListItemIcon>
                                     <ToggleOnIcon/>
                                 </ListItemIcon>
-                                <ListItemText>Test</ListItemText>
+                                <ListItemText>Intro</ListItemText>
                             </ListItem>
-                        </Button>
+                        <Divider/>
+                            <ListItem button>
+                                <ListItemIcon>
+                                    <ToggleOnIcon/>
+                                </ListItemIcon>
+                                <ListItemText>About Me</ListItemText>
+                            </ListItem>
+                        <Divider/>
+                            <ListItem button>
+                                <ListItemIcon>
+                                    <ToggleOnIcon/>
+                                </ListItemIcon>
+                                <ListItemText>Skills</ListItemText>
+                            </ListItem>
+                        <Divider/>
+                            <ListItem button>
+                                <ListItemIcon>
+                                    <ToggleOnIcon/>
+                                </ListItemIcon>
+                                <ListItemText>Projects</ListItemText>
+                            </ListItem>
                         <Divider/>
                     </List>
                     <Contact/>

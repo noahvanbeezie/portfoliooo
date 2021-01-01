@@ -15,7 +15,6 @@ function Landing(){
             <AboutMe/>
             <Skills/>
             <Projects/>
-            {/* <Contact/> */}
             <Nav/>
         </div>
     )

@@ -1,8 +1,23 @@
 @mixin backgroundColor(){
     background-color: #4d194d;
 }
-@mixin flexHorizontal(){
+@mixin secondaryBackgroundColor(){
+    background-color: #144552;
+}
+@mixin headerFont(){
+    font-size: 80px;
+    color: #272640;
+}
+@mixin aboutMeContainer(){
+    position: relative;
+    top: -100px;
+    left: -60px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+}
+@mixin aboutMeContent(){
+    margin-right: 20px;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
 }

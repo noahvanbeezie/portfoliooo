@@ -14,9 +14,24 @@
   background-color: #4d194d;
   border-radius: 50%;
   position: absolute;
-  top: 3vh;
-  left: 36%;
+  top: 0vh;
+  left: 35.5%;
   width: 30%;
   height: 80vh;
+}
+
+.skillsHeadText {
+  font-size: 80px;
+  color: #272640;
+  position: absolute;
+  top: -20px;
+}
+
+.skillsHolder {
+  background-color: #144552;
+  position: absolute;
+  top: 120px;
+  width: 700px;
+  height: 400px;
 }
 /*# sourceMappingURL=Skills.css.map */

@@ -16,4 +16,42 @@
   width: 34.72222222222222vw;
   border-radius: 50%;
 }
+
+.amHeadText {
+  font-size: 80px;
+  color: #272640;
+  position: relative;
+  width: 50%;
+  top: -50px;
+  left: 225px;
+}
+
+.amContainer {
+  position: relative;
+  top: -100px;
+  left: -60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.work {
+  margin-right: 20px;
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+  background-color: #144552;
+}
+
+.hobbies {
+  margin-right: 20px;
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+  background-color: #144552;
+}
 /*# sourceMappingURL=AboutMe.css.map */

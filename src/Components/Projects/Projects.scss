@@ -29,3 +29,40 @@
     height: 10vh;
     border-radius: 50%;
 }
+.projectsHeadText{
+    @include headerFont();
+    position: absolute;
+    top: -70px;
+    left: 35%
+
+}
+.projectsHolder{
+    @include secondaryBackgroundColor();
+    position: absolute;
+    top: 110px;
+    left: 5%;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+.projectSummary{
+    background-color: burlywood;
+    width: 40%;
+}
+.projectName{
+    position: relative;
+    left: 8%;
+    top: -20px;
+    font-size: 40px;
+}
+.projectText{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    background-color: chartreuse;
+}
+.projectImage{
+    background-color: cadetblue;
+}

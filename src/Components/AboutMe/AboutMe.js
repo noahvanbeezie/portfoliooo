@@ -6,9 +6,14 @@ function AboutMe(){
         <div>
             <div className='aboutmeCircle'></div>
             <div className='aboutme'>
-                <h1>About Me</h1>
-                <div>
-                    <p>I'm a junior level web-developer looking to learn new tech, and build on current knowledge.</p>
+                <h1 className='amHeadText'>About Me</h1>
+                <div className='amContainer'>
+                    <div className='work'>
+                        <p>I'm a junior level web-developer looking to learn new tech, and build on current knowledge.</p>
+                    </div>
+                    <div className='hobbies'>
+                        <p>Hobbers</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -61,6 +61,7 @@
 }
 
 .projectName {
+  color: #272640;
   position: relative;
   left: 8%;
   top: -20px;
@@ -68,10 +69,22 @@
 }
 
 .projectText {
+  color: #006466;
   position: relative;
   left: 5%;
   width: 90%;
   background-color: chartreuse;
+}
+
+.projectLinks {
+  color: #272640;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: absolute;
+  bottom: 0px;
+  width: 40%;
+  background-color: coral;
 }
 
 .projectImage {

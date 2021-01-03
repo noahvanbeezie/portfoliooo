@@ -27,6 +27,7 @@
 }
 .skillsHolder{
     @include secondaryBackgroundColor();
+    @include subTextColor();
     position: absolute;
     top: 120px;
     width: 700px;

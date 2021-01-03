@@ -16,6 +16,7 @@
 }
 
 .hello {
+  color: #272640;
   position: absolute;
   font-size: 150px;
   top: -100px;
@@ -23,6 +24,7 @@
 }
 
 .name {
+  color: #006466;
   position: absolute;
   font-size: 60px;
   top: 100px;
@@ -30,6 +32,7 @@
 }
 
 .greeting {
+  color: #272640;
   position: absolute;
   font-size: 60px;
   width: 120%;

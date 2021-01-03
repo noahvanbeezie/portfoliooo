@@ -16,18 +16,21 @@
     border-radius: 300px;  
 }
 .hello{
+    @include headerTextColor();
     position: absolute;
     font-size: 150px;
     top: -100px;
     left: 20px;
 }
 .name{
+    @include subTextColor();
     position: absolute;
     font-size: 60px;
     top: 100px;
     left: 50px;
 }
 .greeting{
+    @include headerTextColor();
     position: absolute;
     font-size: 60px;
     width: 120%;

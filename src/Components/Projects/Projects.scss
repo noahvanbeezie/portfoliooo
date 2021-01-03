@@ -52,16 +52,26 @@
     width: 40%;
 }
 .projectName{
+    @include headerTextColor();
     position: relative;
     left: 8%;
     top: -20px;
     font-size: 40px;
 }
 .projectText{
+    @include subTextColor();
     position: relative;
     left: 5%;
     width: 90%;
     background-color: chartreuse;
+}
+.projectLinks{
+    @include headerTextColor();
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    background-color: coral;
 }
 .projectImage{
     background-color: cadetblue;

@@ -30,8 +30,10 @@
 .work{
     @include aboutMeContent();
     @include secondaryBackgroundColor();
+    @include subTextColor();
 }
 .hobbies{
     @include aboutMeContent();
     @include secondaryBackgroundColor();
+    @include subTextColor();
 }

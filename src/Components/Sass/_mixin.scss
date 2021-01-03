@@ -4,6 +4,12 @@
 @mixin secondaryBackgroundColor(){
     background-color: #144552;
 }
+@mixin headerTextColor(){
+    color: #272640;
+}
+@mixin subTextColor(){
+    color: #006466;
+}
 @mixin headerFont(){
     font-size: 80px;
     color: #272640;

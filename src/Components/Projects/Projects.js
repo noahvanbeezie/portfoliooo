@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Button from '@material-ui/core/Button'
 import './Projects.css'
 
 function Projects(){
@@ -12,6 +13,9 @@ function Projects(){
                     <div className='projectSummary'>
                         <h2 className='projectName'>Example Project</h2>
                         <p className='projectText'>Project Info</p>
+                        <div className='projectLinks'>
+                            <Button>L</Button>
+                        </div>
                     </div>
                     <div className='projectImage'>
                         <img></img>

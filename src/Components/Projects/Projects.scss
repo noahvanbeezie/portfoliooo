@@ -16,7 +16,6 @@
     @include projectsCircles();
     top: -5vh;
     left: 15vw;
-   
 }
 .projectsBottomCircle{
     @include backgroundColor();
@@ -24,50 +23,50 @@
     top: 85vh;
     left: 15vw;
 }
-.projectsHeadText{
-    @include headerFont();
-    position: absolute;
-    top: -10px;
-    left: 35%
-
-}
-.projectsHolder{
-    @include secondaryBackgroundColor();
-    position: absolute;
-    top: 110px;
-    left: 5%;
-    width: 90%;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-
-}
-.projectSummary{
-    background-color: burlywood;
-    width: 40%;
+.projectsCarousel{
+    width: 100%;
+    height: 100%;
 }
 .projectName{
     @include headerTextColor();
-    position: relative;
-    left: 8%;
-    top: 0px;
-    font-size: 40px;
+    width: 100%;
+    text-align: center;
 }
-.projectText{
-    @include subTextColor();
+.infoAndLinks{
     position: relative;
-    left: 5%;
-    width: 90%;
-    background-color: chartreuse;
+    top: 20px;
+    width: 33%;
+    height: 80%;
+}
+.projectInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    left: 10%;
+    height: 580px;
+    width: 80%;
+}
+.projectSummaryDiv{
+    border: black 2px solid;
+    width: 100%;
+    height:400px ;
+    background-color: beige;
 }
 .projectLinks{
-    @include headerTextColor();
-    justify-content: space-evenly;
     position: absolute;
     bottom: 0px;
-    width: 40%;
-    background-color: coral;
+    border: black 2px solid;
+    height: 80px;
+    width: 100%;
+    background-color: brown;
 }
-.projectImage{
-    background-color: cadetblue;
+.projectImageDiv{
+    border: black 2px solid;
+    position: relative;
+    top: 20px;
+    right: -40px;
+    width: 80%;
+    height: 80%; 
+    background-color: blanchedalmond;
 }

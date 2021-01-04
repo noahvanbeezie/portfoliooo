@@ -1,9 +1,11 @@
 @import '../Sass//mixin';
 
 .nav{
-    @include backgroundColor();
     position: fixed;
     width: 75px;
     top: 0px;
     right: 0px;
+}
+.icon{
+    
 }

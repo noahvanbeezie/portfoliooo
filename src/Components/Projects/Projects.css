@@ -31,21 +31,25 @@
   left: 15vw;
 }
 
-.projectsHeadText {
-  font-size: 80px;
-  color: #272640;
-  position: absolute;
-  top: -10px;
-  left: 35%;
+.projectsCarousel {
+  width: 100%;
+  height: 100%;
 }
 
-.projectsHolder {
-  background-color: #144552;
-  position: absolute;
-  top: 110px;
-  left: 5%;
-  width: 90%;
-  height: 500px;
+.projectName {
+  color: #272640;
+  width: 100%;
+  text-align: center;
+}
+
+.infoAndLinks {
+  position: relative;
+  top: 20px;
+  width: 33%;
+  height: 80%;
+}
+
+.projectInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,41 +57,38 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-.projectSummary {
-  background-color: burlywood;
-  width: 40%;
-}
-
-.projectName {
-  color: #272640;
-  position: relative;
-  left: 8%;
-  top: 0px;
-  font-size: 40px;
-}
-
-.projectText {
-  color: #006466;
-  position: relative;
-  left: 5%;
-  width: 90%;
-  background-color: chartreuse;
-}
-
-.projectLinks {
-  color: #272640;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  position: absolute;
-  bottom: 0px;
-  width: 40%;
-  background-color: coral;
+  position: relative;
+  left: 10%;
+  height: 580px;
+  width: 80%;
 }
 
-.projectImage {
-  background-color: cadetblue;
+.projectSummaryDiv {
+  border: black 2px solid;
+  width: 100%;
+  height: 400px;
+  background-color: beige;
+}
+
+.projectLinks {
+  position: absolute;
+  bottom: 0px;
+  border: black 2px solid;
+  height: 80px;
+  width: 100%;
+  background-color: brown;
+}
+
+.projectImageDiv {
+  border: black 2px solid;
+  position: relative;
+  top: 20px;
+  right: -40px;
+  width: 80%;
+  height: 80%;
+  background-color: blanchedalmond;
 }
 /*# sourceMappingURL=Projects.css.map */

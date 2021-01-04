@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Contact from '../Contact/Contact'
 import { makeStyles } from '@material-ui/core/styles'
 import Button from '@material-ui/core/Button'
@@ -8,18 +9,22 @@ import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
 import ListItem from '@material-ui/core/ListItem'
 import Divider from '@material-ui/core/Divider'
-import ToggleOffIcon from '@material-ui/icons/ToggleOff'
-import ToggleOnIcon from '@material-ui/icons/ToggleOn'
+import MenuIcon from '@material-ui/icons/Menu'
+import MenuOpenIcon from '@material-ui/icons/MenuOpen'
+import PanToolTwoToneIcon from '@material-ui/icons/PanToolTwoTone'
+import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople'
+import ComputerTwoToneIcon from '@material-ui/icons/ComputerTwoTone'
+import AccountTreeTwoToneIcon from '@material-ui/icons/AccountTreeTwoTone'
 import './Nav.css'
 
 
 function Nav(){
     const styles = makeStyles({
         navButton:{
-            backgroundColor:'yellow',
-            width:'10px',
+            // backgroundColor:'yellow',
+            width:'20px',
             height:'70px',
-            borderRadius:'50%'
+            // borderRadius:'50%'
         }
     })
     const style = styles()
@@ -37,7 +42,7 @@ function Nav(){
                     <Button
                         className={style.navButton}
                         onClick={() => toggleNav()}>
-                                <ToggleOffIcon/>
+                                <MenuIcon className='icon'/>
                     </Button>
                     )}
                 <Drawer
@@ -46,34 +51,42 @@ function Nav(){
                     open={isNavOpen}
                 >
                     <Button onClick={() => toggleNav()}>
-                    <ToggleOnIcon/>
+                    <MenuOpenIcon/>
                     </Button>
                     <List>
                         <Divider/>
-                            <ListItem button>
+                            <ListItem 
+                                button
+                                onClick={() => scroll.scrollTo(0)}>
                                 <ListItemIcon>
-                                    <ToggleOnIcon/>
+                                    <PanToolTwoToneIcon/>
                                 </ListItemIcon>
                                 <ListItemText>Intro</ListItemText>
                             </ListItem>
                         <Divider/>
-                            <ListItem button>
+                            <ListItem 
+                                button
+                                onClick={() => scroll.scrollTo(800)}>
                                 <ListItemIcon>
-                                    <ToggleOnIcon/>
+                                    <EmojiPeopleIcon/>
                                 </ListItemIcon>
                                 <ListItemText>About Me</ListItemText>
                             </ListItem>
                         <Divider/>
-                            <ListItem button>
+                            <ListItem 
+                                button
+                                onClick={() => scroll.scrollTo(1700)}>
                                 <ListItemIcon>
-                                    <ToggleOnIcon/>
+                                    <ComputerTwoToneIcon/>
                                 </ListItemIcon>
                                 <ListItemText>Skills</ListItemText>
                             </ListItem>
                         <Divider/>
-                            <ListItem button>
+                            <ListItem 
+                                button
+                                onClick={() => scroll.scrollTo(2700)}>
                                 <ListItemIcon>
-                                    <ToggleOnIcon/>
+                                    <AccountTreeTwoToneIcon/>
                                 </ListItemIcon>
                                 <ListItemText>Projects</ListItemText>
                             </ListItem>

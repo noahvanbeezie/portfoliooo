@@ -20,7 +20,11 @@ function Contact(){
                         <EmailIcon/>
                     </ListItemIcon>
                     <ListItemText>
-                        <Link rel="noopener">
+                        <Link 
+                            rel="noopener"
+                            href='mailto:noahvanbeezie@gmail.com'
+                            target='_blank'
+                        >
                             Email
                         </Link>
                     </ListItemText>
@@ -31,7 +35,11 @@ function Contact(){
                         <GitHubIcon/>
                     </ListItemIcon>
                     <ListItemText>
-                        <Link rel="noopener">
+                        <Link 
+                            rel="noopener"
+                            href='https://github.com/noahvanbeezie'
+                            target='_blank'
+                        >
                             GitHub
                         </Link>
                     </ListItemText>
@@ -42,7 +50,11 @@ function Contact(){
                         <LinkedInIcon/>
                     </ListItemIcon>
                     <ListItemText>
-                        <Link rel="noopener">
+                        <Link 
+                            rel="noopener"
+                            href='https://www.linkedin.com/in/noah-van-buskirk-221762161/'
+                            target='_blank'
+                        >
                             LinkedIn
                         </Link>
                     </ListItemText>

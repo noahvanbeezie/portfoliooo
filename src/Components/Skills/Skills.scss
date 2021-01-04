@@ -35,8 +35,52 @@
     width: 700px;
     height: 400px;
 }
-.techDiv{
-    background-color: crimson;
-    width: 20%;
-    height: 20%;
+.skillsCarouselHead{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+.carouselSkills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: scroll;
+    width: 100%;
+    height: 332px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.threeTechDiv{
+    position: relative;
+    top: -20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+
+}
+.techHolder{
+    border: black 2px solid;
+    padding-top: 15px;
+    width: 110px;
+    height: 140px;
+}
+.techIcon{
+    position: relative;
+    left: 13.5px;
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+
+}
+.techName{
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    text-align: center;
+
 }

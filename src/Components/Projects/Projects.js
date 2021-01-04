@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Carousel from 'react-bootstrap/Carousel'
 import Button from '@material-ui/core/Button'
 import './Projects.css'
 
@@ -8,18 +9,41 @@ function Projects(){
             <div className='projectsTopCircle'></div>
             <div className='projectsBottomCircle'></div>
             <div className='projectsDiv'>
-                <h1 className='projectsHeadText'>Projects</h1>
-                <div className='projectsHolder'>
-                    <div className='projectSummary'>
-                        <h2 className='projectName'>Example Project</h2>
-                        <p className='projectText'>Project Info</p>
-                        <div className='projectLinks'>
-                            <Button>L</Button>
-                        </div>
-                    </div>
-                    <div className='projectImage'>
-                        <img></img>
-                    </div>
+                <div className='projectsCarousel'>
+                    <Carousel>
+                        <Carousel.Item>
+                            <h1 className='projectName'>Project Name</h1>
+                            <div className='projectInfo'>
+                                <div className='infoAndLinks'>
+                                    <div className='projectSummaryDiv'>
+                                        <p>Test test test test test test test</p>
+                                    </div>
+                                    <div className='projectLinks'>
+                                        <Button></Button>
+                                    </div>
+                                </div>
+                                <div className='projectImageDiv'>
+                                    <img></img>
+                                </div>
+                            </div>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <h1 className='projectName'>Project Name</h1>
+                            <div className='projectInfo'>
+                                <div className='infoAndLinks'>
+                                    <div className='projectSummaryDiv'>
+                                        <p>Test test test test test test test</p>
+                                    </div>
+                                    <div className='projectLinks'>
+                                        <Button></Button>
+                                    </div>
+                                </div>
+                                <div className='projectImageDiv'>
+                                    <img></img>
+                                </div>
+                            </div>
+                        </Carousel.Item>
+                    </Carousel>
                 </div>
             </div>
         </div>

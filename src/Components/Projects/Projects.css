@@ -14,21 +14,21 @@
 .projectsTopCircle {
   background-color: #4d194d;
   position: absolute;
+  height: 10vh;
+  border-radius: 50%;
   width: 70vw;
   top: -5vh;
   left: 15vw;
-  height: 10vh;
-  border-radius: 50%;
 }
 
 .projectsBottomCircle {
   background-color: #4d194d;
   position: absolute;
+  height: 10vh;
+  border-radius: 50%;
   width: 70vw;
   top: 85vh;
   left: 15vw;
-  height: 10vh;
-  border-radius: 50%;
 }
 
 .projectsHeadText {

@@ -29,7 +29,14 @@
     @include secondaryBackgroundColor();
     @include subTextColor();
     position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 120px;
     width: 700px;
     height: 400px;
+}
+.techDiv{
+    background-color: crimson;
+    width: 20%;
+    height: 20%;
 }

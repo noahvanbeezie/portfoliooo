@@ -48,12 +48,13 @@
   color: #006466;
 }
 
-.hobbies {
+.amImages {
   margin-right: 20px;
   width: 500px;
   height: 350px;
   border-radius: 5px;
   background-color: #144552;
   color: #006466;
+  padding: 0;
 }
 /*# sourceMappingURL=AboutMe.css.map */

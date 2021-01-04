@@ -8,11 +8,15 @@ function Skills(){
             <div className='skillsDiv'>
                 <h1 className='skillsHeadText'>Skills</h1>
                 <div className='skillsHolder'>
-                    <div className='skillDiv'>
-                        <img></img>
-                        <h2>Example Skill</h2>
-                        <p></p>
+                    <div className='languages'>
+                        <h2>Languages</h2>
+                        <div className='techDiv'>
+                            <img></img>
+                            <h3></h3>
+                        </div>
+
                     </div>
+                    
                 </div>
             </div>
         </div>

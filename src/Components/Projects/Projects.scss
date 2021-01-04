@@ -13,21 +13,16 @@
 }
 .projectsTopCircle{
     @include backgroundColor();
-    position: absolute;
-    width: 70vw;
+    @include projectsCircles();
     top: -5vh;
     left: 15vw;
-    height: 10vh;
-    border-radius: 50%;
+   
 }
 .projectsBottomCircle{
     @include backgroundColor();
-    position: absolute;
-    width: 70vw;
+    @include projectsCircles();
     top: 85vh;
     left: 15vw;
-    height: 10vh;
-    border-radius: 50%;
 }
 .projectsHeadText{
     @include headerFont();

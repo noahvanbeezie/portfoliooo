@@ -14,6 +14,10 @@
     font-size: 80px;
     color: #272640;
 }
+@mixin fullBox(){
+    height: 100%;
+    width: 100%;
+}
 @mixin aboutMeContainer(){
     position: relative;
     top: -100px;
@@ -26,4 +30,10 @@
     width: 500px;
     height: 350px;
     border-radius: 5px;
+}
+@mixin projectsCircles(){
+    position: absolute;
+    height: 10vh;
+    border-radius: 50%;
+    width: 70vw;
 }

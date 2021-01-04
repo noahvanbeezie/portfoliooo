@@ -1,5 +1,6 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import './AboutMe.css'
+
 
 function AboutMe(){
     return(
@@ -11,8 +12,7 @@ function AboutMe(){
                     <div className='work'>
                         <p>I'm a junior level web-developer looking to learn new tech, and build on current knowledge.</p>
                     </div>
-                    <div className='hobbies'>
-                        <p>Hobbers</p>
+                    <div className='amImages'>
                     </div>
                 </div>
             </div>

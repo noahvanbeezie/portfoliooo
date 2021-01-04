@@ -32,8 +32,13 @@
     @include secondaryBackgroundColor();
     @include subTextColor();
 }
-.hobbies{
+.amImages{
     @include aboutMeContent();
     @include secondaryBackgroundColor();
     @include subTextColor();
+    padding: 0;
 }
+
+
+
+

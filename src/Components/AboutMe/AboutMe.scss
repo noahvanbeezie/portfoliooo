@@ -21,7 +21,7 @@
     @include headerFont();
     position: relative;
     width: 50%;
-    top: -50px;
+    top: 0px;
     left: 225px;
 }
 .amContainer{
@@ -37,6 +37,10 @@
     @include secondaryBackgroundColor();
     @include subTextColor();
     padding: 0;
+}
+.amImage{
+    width: 100%;
+    height: 100%;
 }
 
 

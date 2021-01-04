@@ -19,14 +19,14 @@
     @include headerTextColor();
     position: absolute;
     font-size: 150px;
-    top: -100px;
+    top: -20px;
     left: 20px;
 }
 .name{
     @include subTextColor();
     position: absolute;
     font-size: 60px;
-    top: 100px;
+    top: 140px;
     left: 50px;
 }
 .greeting{
@@ -34,6 +34,6 @@
     position: absolute;
     font-size: 60px;
     width: 120%;
-    top: 160px;
+    top: 200px;
     left: 80px;
 }

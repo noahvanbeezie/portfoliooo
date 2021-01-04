@@ -22,13 +22,13 @@
   color: #272640;
   position: relative;
   width: 50%;
-  top: -50px;
+  top: 0px;
   left: 225px;
 }
 
 .amContainer {
   position: relative;
-  top: -100px;
+  top: 0px;
   left: -60px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,5 +56,10 @@
   background-color: #144552;
   color: #006466;
   padding: 0;
+}
+
+.amImage {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=AboutMe.css.map */

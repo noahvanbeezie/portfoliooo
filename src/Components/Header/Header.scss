@@ -2,9 +2,12 @@
 
 .headerDiv{
     @include backgroundColor();
+    @include borderMinusLeft();
     position: absolute;
     height: 300px;
-    width: 50vw;
+    width: 55vw;
+    border-radius: 0 100px 100px 0;
+
 }
 .headerCircle{
     @include backgroundColor();

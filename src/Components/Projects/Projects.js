@@ -6,13 +6,11 @@ import './Projects.css'
 function Projects(){
     return(
         <div className='projects'>
-            <div className='projectsTopCircle'></div>
-            <div className='projectsBottomCircle'></div>
             <div className='projectsDiv'>
                 <div className='projectsCarousel'>
                     <Carousel>
                         <Carousel.Item>
-                            <h1 className='projectName'>Project Name</h1>
+                            <h1 className='projectName'>The Gauntlet</h1>
                             <div className='projectInfo'>
                                 <div className='infoAndLinks'>
                                     <div className='projectSummaryDiv'>

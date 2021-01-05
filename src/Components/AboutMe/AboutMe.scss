@@ -2,21 +2,16 @@
 
 .aboutme{
     @include backgroundColor();
+    @include borderMinusRight();
     position: absolute;
     right: 0;
     top: 130vh;
     height: 500px;
-    width: 70%;
+    width: 80%;
+    border-radius: 100px 0 0 100px;
+
 }
-.aboutmeCircle{
-    @include backgroundColor();
-    position: absolute;
-    top: 130vh;
-    left: 12%;
-    height: 500px;
-    width: 34.72222222222222vw;
-    border-radius: 50%;
-}
+
 .amHeadText{
     @include headerFont();
     position: relative;
@@ -25,17 +20,29 @@
     left: 225px;
 }
 .amContainer{
-    @include aboutMeContainer();
+    position: relative;
+    top: -10px;
+    left: 65px;
+    display: flex;
+    flex-direction: row;
 }
-.work{
-    @include aboutMeContent();
+.me{
     @include secondaryBackgroundColor();
     @include subTextColor();
+    @include fullBorder();
+    margin-right: 20px;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
 }
 .amImages{
-    @include aboutMeContent();
     @include secondaryBackgroundColor();
     @include subTextColor();
+    @include fullBorder();
+    margin-right: 20px;
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
     padding: 0;
 }
 .amImage{

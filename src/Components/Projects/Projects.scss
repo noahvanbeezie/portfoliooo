@@ -3,27 +3,20 @@
 .projects{
     position: absolute;
     top: 380vh;
+    
 }
 .projectsDiv{
     @include backgroundColor();
+    @include fullBorder();
+    border-radius: 100px 100px 100px 100px;
     position: absolute;
     width: 70vw;
-    height: 90vh;
-    left: 15vw;
-}
-.projectsTopCircle{
-    @include backgroundColor();
-    @include projectsCircles();
-    top: -5vh;
-    left: 15vw;
-}
-.projectsBottomCircle{
-    @include backgroundColor();
-    @include projectsCircles();
-    top: 85vh;
+    height: 98vh;
     left: 15vw;
 }
 .projectsCarousel{
+    position: relative;
+    top: 75px;
     width: 100%;
     height: 100%;
 }
@@ -48,21 +41,21 @@
     width: 80%;
 }
 .projectSummaryDiv{
-    border: black 2px solid;
+    @include fullBorder();
     width: 100%;
     height:400px ;
     background-color: beige;
 }
 .projectLinks{
+    @include fullBorder();
     position: absolute;
     bottom: 0px;
-    border: black 2px solid;
     height: 80px;
     width: 100%;
     background-color: brown;
 }
 .projectImageDiv{
-    border: black 2px solid;
+    @include fullBorder();
     position: relative;
     top: 20px;
     right: -40px;

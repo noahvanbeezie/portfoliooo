@@ -7,8 +7,11 @@
 }
 .skillsDiv{
     @include backgroundColor();
-    width: 50%;
+    @include borderMinusLeft();
+    width: 65%;
     height: 80vh;
+    border-radius: 0 100px 100px 0;
+
 }
 .skillsCircle{
     @include backgroundColor();
@@ -22,27 +25,31 @@
 .skillsHeadText{
     @include headerFont();
     position: absolute;
-    top: 0px;
+    top: 5px;
+    left: 310px
     
 }
 .skillsHolder{
     @include secondaryBackgroundColor();
     @include subTextColor();
+    @include fullBorder();
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 120px;
+    left: 40px;
+    top: 105px;
     width: 700px;
     height: 400px;
 }
 .skillsCarouselHead{
     position: relative;
-    top: 20px;
+    top: 60px;
     width: 100%;
     font-size: 50px;
     text-align: center;
 }
 .carouselSkills{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -64,7 +71,9 @@
 
 }
 .techHolder{
+    @include backgroundColor();
     border: black 2px solid;
+    border-radius: 5px;
     padding-top: 15px;
     width: 110px;
     height: 140px;
@@ -74,13 +83,10 @@
     left: 13.5px;
     width: 80px;
     height: 80px;
-    background-color: yellow;
-
 }
 .techName{
     position: relative;
     top: 5px;
     font-size: 20px;
     text-align: center;
-
 }

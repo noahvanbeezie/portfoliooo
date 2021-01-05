@@ -1,20 +1,14 @@
 .aboutme {
   background-color: #4d194d;
+  border-top: black 5px solid;
+  border-bottom: black 5px solid;
+  border-left: black 5px solid;
   position: absolute;
   right: 0;
   top: 130vh;
   height: 500px;
-  width: 70%;
-}
-
-.aboutmeCircle {
-  background-color: #4d194d;
-  position: absolute;
-  top: 130vh;
-  left: 12%;
-  height: 500px;
-  width: 34.72222222222222vw;
-  border-radius: 50%;
+  width: 80%;
+  border-radius: 100px 0 0 100px;
 }
 
 .amHeadText {
@@ -28,8 +22,8 @@
 
 .amContainer {
   position: relative;
-  top: 0px;
-  left: -60px;
+  top: -10px;
+  left: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,22 +33,26 @@
           flex-direction: row;
 }
 
-.work {
+.me {
+  background-color: #144552;
+  color: #006466;
+  border: black 5px solid;
+  border-radius: 8px;
   margin-right: 20px;
   width: 500px;
   height: 350px;
   border-radius: 5px;
-  background-color: #144552;
-  color: #006466;
 }
 
 .amImages {
+  background-color: #144552;
+  color: #006466;
+  border: black 5px solid;
+  border-radius: 8px;
   margin-right: 20px;
   width: 500px;
   height: 350px;
   border-radius: 5px;
-  background-color: #144552;
-  color: #006466;
   padding: 0;
 }
 

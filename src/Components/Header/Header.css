@@ -1,8 +1,12 @@
 .headerDiv {
   background-color: #4d194d;
+  border-top: black 5px solid;
+  border-bottom: black 5px solid;
+  border-right: black 5px solid;
   position: absolute;
   height: 300px;
-  width: 50vw;
+  width: 55vw;
+  border-radius: 0 100px 100px 0;
 }
 
 .headerCircle {

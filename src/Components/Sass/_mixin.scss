@@ -18,22 +18,17 @@
     height: 100%;
     width: 100%;
 }
-@mixin aboutMeContainer(){
-    position: relative;
-    top: 0px;
-    left: -60px;
-    display: flex;
-    flex-direction: row;
+@mixin fullBorder(){
+    border: black 5px solid;
+    border-radius: 8px;
 }
-@mixin aboutMeContent(){
-    margin-right: 20px;
-    width: 500px;
-    height: 350px;
-    border-radius: 5px;
+@mixin borderMinusLeft(){
+    border-top: black 5px solid;
+    border-bottom: black 5px solid ;
+    border-right: black 5px solid ;
 }
-@mixin projectsCircles(){
-    position: absolute;
-    height: 10vh;
-    border-radius: 50%;
-    width: 70vw;
+@mixin borderMinusRight(){
+    border-top: black 5px solid;
+    border-bottom: black 5px solid ;
+    border-left: black 5px solid ;
 }

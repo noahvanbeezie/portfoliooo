@@ -30,6 +30,8 @@
     @include secondaryBackgroundColor();
     @include subTextColor();
     @include fullBorder();
+    padding: 6px;
+    padding-top: 40px;
     margin-right: 20px;
     width: 500px;
     height: 350px;

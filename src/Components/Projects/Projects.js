@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import Button from '@material-ui/core/Button'
+import Link from '@material-ui/core/Link'
+import GitHubIcon from '@material-ui/icons/GitHub'
 import './Projects.css'
 
 function Projects(){
@@ -14,10 +15,21 @@ function Projects(){
                             <div className='projectInfo'>
                                 <div className='infoAndLinks'>
                                     <div className='projectSummaryDiv'>
-                                        <p>Test test test test test test test</p>
+                                        <p>This was my Solo-Project that I completed while attending DevMountain.
+                                        </p>
+                                        <p>It was created using:
+                                        JS, React, NodeJS, React Redux, Axios, 
+                                        PostgreSQL, ChartJS, and Sass.</p>
+                                        <p>The application is a game website, with working Authentication and DataBase data for the users game runs. The biggest challenge I faced in this project was setting up the game engine, and helped me build upon my understandings of basic logic-gates and conditional rendering.</p>
                                     </div>
                                     <div className='projectLinks'>
-                                        <Button></Button>
+                                        <Link 
+                                            href='https://github.com/noahvanbeezie/Personal-Project-The-Gauntlet'
+                                            rel="noopener"
+                                            target='_blank'>
+                                                <GitHubIcon/>
+                                                GitHub
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className='projectImageDiv'>
@@ -33,7 +45,7 @@ function Projects(){
                                         <p>Test test test test test test test</p>
                                     </div>
                                     <div className='projectLinks'>
-                                        <Button></Button>
+                                        <Link></Link>
                                     </div>
                                 </div>
                                 <div className='projectImageDiv'>

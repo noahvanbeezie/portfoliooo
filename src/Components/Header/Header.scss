@@ -3,6 +3,7 @@
 .headerDiv{
     @include backgroundColor();
     @include borderMinusLeft();
+    @include boxShadow();
     position: absolute;
     height: 300px;
     width: 55vw;
@@ -31,6 +32,7 @@
     font-size: 60px;
     top: 140px;
     left: 50px;
+
 }
 .greeting{
     @include headerTextColor();

@@ -1,12 +1,30 @@
 import React, {useState} from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import Button from '@material-ui/core/Link'
+import Button from '@material-ui/core/Button'
 import GitHubIcon from '@material-ui/icons/GitHub'
+import { makeStyles } from '@material-ui/core/styles'
 import './Projects.css'
 
 function Projects(){
+
+    const styles = makeStyles({
+        projectButton:{
+            position:'relative',
+            top:'10%',
+            width:'100%',
+            height:'90%',
+            backgroundColor:'brown',
+            fontSize:'30px'
+        }
+
+    })
+    const style = styles()
+
     return(
         <div className='projects'>
+            <div className='projectsNameDiv'>
+                <h1 className='projectsHead'>Projects</h1>
+            </div>
             <div className='projectsDiv'>
                 <div className='projectsCarousel'>
                     <Carousel>
@@ -24,12 +42,10 @@ function Projects(){
                                     </div>
                                     <div className='projectLinks'>
                                         <Button 
-                                            href='https://github.com/noahvanbeezie/Personal-Project-The-Gauntlet'
-                                            rel="noopener"
-                                            target='_blank'>
+                                            className={style.projectButton}>
                                                 <GitHubIcon/>
                                                 GitHub
-                                        </Button>
+                                            </Button>
                                     </div>
                                 </div>
                                 <div className='projectImageDiv'>
@@ -61,10 +77,7 @@ function Projects(){
                                         </p>
                                     </div>
                                     <div className='projectLinks'>
-                                    <Button 
-                                            href='https://github.com/Board-Game-Group-Project/Boardgames'
-                                            rel="noopener"
-                                            target='_blank'>
+                                    <Button className={style.projectButton}>
                                                 <GitHubIcon/>
                                                 GitHub
                                         </Button>

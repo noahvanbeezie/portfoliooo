@@ -2,13 +2,35 @@
 
 .projects{
     position: absolute;
-    top: 380vh;
-    
+    top: 380vh;   
+}
+.projectsNameDiv{
+    @include secondaryBackgroundColor();
+    @include borderMinusRight();
+    @include boxShadow();
+    border-radius:  50px 0px 0px 50px;
+    position: absolute;
+    top: 18vh;
+    left: 11vh;
+    width:10vw;
+    height: 70vh
+}
+.projectsHead{
+    @include headerFont();
+    position: absolute;
+    width: 68vh;
+    height: 8vw;
+    top: 190px;
+    left: -170px;
+    transform: rotate(-90deg);
+    text-align: center
+
 }
 .projectsDiv{
     @include backgroundColor();
     @include fullBorder();
-    border-radius: 100px 100px 100px 100px;
+    @include boxShadow();
+    border-radius: 100px 100px 0px 0px;
     position: absolute;
     width: 70vw;
     height: 98vh;
@@ -22,7 +44,7 @@
     height: 80%;
 }
 .projectName{
-    @include headerTextColor();
+    @include subTextColor();
     width: 100%;
     font-size: 60px;
     text-align: center;
@@ -53,12 +75,11 @@
 }
 
 .projectLinks{
-    @include fullBorder();
+    @include borderMinusTop();
     position: absolute;
     bottom: 0px;
-    height: 80px;
+    height: 72px;
     width: 130%;
-    background-color: brown;
     justify-content: center;
     text-align:center;
     

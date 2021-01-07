@@ -8,6 +8,7 @@
 .skillsDiv{
     @include backgroundColor();
     @include borderMinusLeft();
+    @include boxShadow();
     width: 65%;
     height: 80vh;
     border-radius: 0 100px 100px 0;
@@ -33,6 +34,7 @@
     @include secondaryBackgroundColor();
     @include subTextColor();
     @include fullBorder();
+    @include boxShadow();
     position: absolute;
     display: flex;
     flex-direction: column;

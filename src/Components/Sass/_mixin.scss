@@ -29,9 +29,22 @@
     border-top: black 5px solid;
     border-bottom: black 5px solid ;
     border-right: black 5px solid ;
+    border-radius: 8px;
+
 }
 @mixin borderMinusRight(){
     border-top: black 5px solid;
     border-bottom: black 5px solid ;
     border-left: black 5px solid ;
+    border-radius: 8px;
+
+}
+@mixin borderMinusTop(){
+    border-bottom: black 5px solid ;
+    border-left: black 5px solid ;
+    border-right: black 5px solid ;
+    border-radius: 8px;
+}
+@mixin boxShadow(){
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.4);
 }

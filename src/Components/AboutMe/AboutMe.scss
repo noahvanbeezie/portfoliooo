@@ -3,13 +3,13 @@
 .aboutme{
     @include backgroundColor();
     @include borderMinusRight();
+    @include boxShadow();
     position: absolute;
     right: 0;
     top: 130vh;
     height: 500px;
-    width: 80%;
+    width: 85%;
     border-radius: 100px 0 0 100px;
-
 }
 
 .amHeadText{
@@ -17,12 +17,13 @@
     position: relative;
     width: 50%;
     top: 0px;
-    left: 225px;
+    left: 135px;
 }
 .amContainer{
+    justify-content: space-evenly;
+    width: 100%;
     position: relative;
     top: -10px;
-    left: 65px;
     display: flex;
     flex-direction: row;
 }
@@ -30,6 +31,7 @@
     @include secondaryBackgroundColor();
     @include subTextColor();
     @include fullBorder();
+    @include boxShadow();
     padding: 6px;
     padding-top: 40px;
     margin-right: 20px;
@@ -41,6 +43,7 @@
     @include secondaryBackgroundColor();
     @include subTextColor();
     @include fullBorder();
+    @include boxShadow();
     margin-right: 20px;
     width: 500px;
     height: 350px;

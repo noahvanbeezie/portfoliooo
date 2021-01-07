@@ -16,7 +16,6 @@ function AboutMe(){
                         <p>I'm a junior level web-developer looking to learn new technologies, and build on current knowledge and understandings in the Development field.</p>
                         <p>I'm currently attending Utah Valley University and in the works of completing my Bachelor's degree in Computer Science, with the hopes of progressing onwards towards a Master's in Cyber Security.</p>
                         <p>In my free time you can find me playing video games, boxing, or attending a music event.</p>
-                        
                     </div>
                     <div className='amImages'>
                         <Carousel className='carousel'>

@@ -6,6 +6,9 @@
     top: 0px;
     right: 0px;
 }
+.navdrawer{
+    @include secondaryBackgroundColor();
+}
 .icon{
     
 }

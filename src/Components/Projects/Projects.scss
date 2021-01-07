@@ -47,16 +47,17 @@
     @include fullBorder();
     overflow: scroll;
     padding: 6px;
-    width: 100%;
+    width: 130%;
     height:400px ;
     background-color: beige;
 }
+
 .projectLinks{
     @include fullBorder();
     position: absolute;
     bottom: 0px;
     height: 80px;
-    width: 100%;
+    width: 130%;
     background-color: brown;
     justify-content: center;
     text-align:center;
@@ -66,7 +67,7 @@
     @include fullBorder();
     position: relative;
     top: 20px;
-    right: -40px;
+    right: -55px;
     width: 60%;
     height: 80%; 
     background-color: blanchedalmond;

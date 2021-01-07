@@ -4,6 +4,9 @@
 @mixin secondaryBackgroundColor(){
     background-color: #144552;
 }
+@mixin thirdBackgroundColor(){
+    background-color: beige;
+}
 @mixin headerTextColor(){
     color: #272640;
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import {animateScroll as scroll} from 'react-scroll'
 import Contact from '../Contact/Contact'
 import { makeStyles } from '@material-ui/core/styles'
 import Button from '@material-ui/core/Button'
@@ -21,10 +21,20 @@ import './Nav.css'
 function Nav(){
     const styles = makeStyles({
         navButton:{
-            // backgroundColor:'yellow',
             width:'20px',
             height:'70px',
-            // borderRadius:'50%'
+        },
+        introButton:{
+
+        },
+        aboutMeButton:{
+
+        },
+        skillsButton:{
+
+        },
+        projectsButton:{
+
         }
     })
     const style = styles()
@@ -50,12 +60,15 @@ function Nav(){
                     anchor="right"
                     open={isNavOpen}
                 >
-                    <Button onClick={() => toggleNav()}>
-                    <MenuOpenIcon/>
+                    <Button
+                        onClick={() => toggleNav()}
+                        style={{height:'50px',marginBottom:'0px'}}
+                    >
+                        <MenuOpenIcon/>
                     </Button>
                     <List>
                         <Divider/>
-                            <ListItem 
+                            <ListItem
                                 button
                                 onClick={() => scroll.scrollTo(0)}>
                                 <ListItemIcon>

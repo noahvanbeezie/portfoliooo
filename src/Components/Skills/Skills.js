@@ -4,6 +4,7 @@ import JSIcon from '../assets/icons/jsicon.png'
 import PythonIcon from '../assets/icons/pythonicon.png'
 import HTMLCSSIcon from '../assets/icons/htmlcssicon.png'
 import NodeJSIcon from '../assets/icons/nodejsicon.png'
+import ReactIcon from '../assets/icons/reactjsicon.png'
 import SassIcon from '../assets/icons/sassicon.png'
 import MaterialUIIcon from '../assets/icons/materialuiicon.png'
 import AxiosIcon from '../assets/icons/axiosicon.png'
@@ -48,6 +49,12 @@ function Skills(){
                                 <h1 className='skillsCarouselHead'>Front-End</h1>
                                 <div className='carouselSkills'>
                                     <div className='threeTechDiv'>
+                                    <div className='techHolder'>
+                                        <img className='techIcon'
+                                             src={ReactIcon}>
+                                        </img>
+                                        <h2 className='techName'>ReactJS</h2>
+                                    </div>
                                     <div className='techHolder'>
                                         <img className='techIcon'
                                              src={SassIcon}>

@@ -59,7 +59,7 @@
   border-radius: 8px;
   overflow: scroll;
   padding: 6px;
-  width: 100%;
+  width: 130%;
   height: 400px;
   background-color: beige;
 }
@@ -70,7 +70,7 @@
   position: absolute;
   bottom: 0px;
   height: 80px;
-  width: 100%;
+  width: 130%;
   background-color: brown;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -83,7 +83,7 @@
   border-radius: 8px;
   position: relative;
   top: 20px;
-  right: -40px;
+  right: -55px;
   width: 60%;
   height: 80%;
   background-color: blanchedalmond;

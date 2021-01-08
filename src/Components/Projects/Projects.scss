@@ -44,7 +44,7 @@
     height: 80%;
 }
 .projectName{
-    @include subTextColor();
+    @include headerTextColor();
     width: 100%;
     font-size: 60px;
     text-align: center;
@@ -67,11 +67,12 @@
 }
 .projectSummaryDiv{
     @include fullBorder();
+    @include secondaryBackgroundColor();
+    @include subTextColor();
     overflow: scroll;
     padding: 6px;
     width: 130%;
     height:400px ;
-    background-color: beige;
 }
 
 .projectLinks{
@@ -84,12 +85,21 @@
     text-align:center;
     
 }
-.projectImageDiv{
-    @include fullBorder();
+.projectVideoDiv{
+    // @include fullBorder();
     position: relative;
-    top: 20px;
+    top: 100px;
     right: -55px;
     width: 60%;
-    height: 80%; 
-    background-color: blanchedalmond;
+    height: fit-content; 
+    // background-color: blanchedalmond;
 }
+.projectVideo{
+    @include fullBorder();
+    width: 100%;
+    height: 100%;
+    // transition: all .2s ease-in-out;
+}
+// .projectVideo:hover{
+//     transform: scale(1.5);
+// }

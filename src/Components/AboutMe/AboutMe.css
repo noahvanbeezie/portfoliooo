@@ -1,5 +1,5 @@
 .aboutme {
-  background-color: #4d194d;
+  background-color: #62BBC1;
   border-top: black 5px solid;
   border-bottom: black 5px solid;
   border-left: black 5px solid;
@@ -16,7 +16,7 @@
 
 .amHeadText {
   font-size: 80px;
-  color: #272640;
+  color: #000000;
   position: relative;
   width: 50%;
   top: 0px;
@@ -40,8 +40,8 @@
 }
 
 .me {
-  background-color: #144552;
-  color: #006466;
+  background-color: #EC058E;
+  color: #fffafa;
   border: black 5px solid;
   border-radius: 8px;
   -webkit-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.4);
@@ -55,8 +55,8 @@
 }
 
 .amImages {
-  background-color: #144552;
-  color: #006466;
+  background-color: #EC058E;
+  color: #fffafa;
   border: black 5px solid;
   border-radius: 8px;
   -webkit-box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.4);

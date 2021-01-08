@@ -1,4 +1,13 @@
 body {
   margin-top: 40vh;
 }
+
+.landing {
+  position: absolute;
+  top: -40vh;
+  width: 100vw;
+  height: 518vh;
+  background-image: linear-gradient(45deg, #e4c1f9 25%, #fffafa 25%, #fffafa 50%, #e4c1f9 50%, #e4c1f9 75%, #fffafa 75%, #fffafa 100%);
+  background-size: 106.07px 106.07px;
+}
 /*# sourceMappingURL=Landing.css.map */

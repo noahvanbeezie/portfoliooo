@@ -1,7 +1,10 @@
 import React, {useState} from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import Button from '@material-ui/core/Button'
+import CardMedia from '@material-ui/core/CardMedia'
 import GitHubIcon from '@material-ui/icons/GitHub'
+import GauntletVideo from '../assets/videos/TheGauntletDemo.mp4'
+import BoardgameVideo from '../assets/videos/BoardGamesDemo.mp4'
 import { makeStyles } from '@material-ui/core/styles'
 import './Projects.css'
 
@@ -13,9 +16,14 @@ function Projects(){
             top:'10%',
             width:'100%',
             height:'90%',
-            backgroundColor:'brown',
-            fontSize:'30px'
+            backgroundColor:'#ff5a5f',
+            fontSize:'30px',
+            '&:hover': {
+                backgroundColor: '#ff5a5f'
+            }
+    
         }
+
 
     })
     const style = styles()
@@ -42,14 +50,23 @@ function Projects(){
                                     </div>
                                     <div className='projectLinks'>
                                         <Button 
-                                            className={style.projectButton}>
+                                            className={style.projectButton}
+                                            href='https://github.com/noahvanbeezie/Personal-Project-The-Gauntlet'
+                                            target = "_blank" 
+                                            rel = "noopener noreferrer">
                                                 <GitHubIcon/>
                                                 GitHub
                                             </Button>
                                     </div>
                                 </div>
-                                <div className='projectImageDiv'>
-                                    <img></img>
+                                <div className='projectVideoDiv'>
+                                    <video className='projectVideo'
+                                           controls>
+                                        <source
+                                            type='video/mp4'
+                                            src={GauntletVideo}
+                                            />
+                                    </video>
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -77,14 +94,23 @@ function Projects(){
                                         </p>
                                     </div>
                                     <div className='projectLinks'>
-                                    <Button className={style.projectButton}>
+                                    <Button className={style.projectButton}
+                                            href='https://github.com/Board-Game-Group-Project/Boardgames'
+                                            target = "_blank" 
+                                            rel = "noopener noreferrer">
                                                 <GitHubIcon/>
                                                 GitHub
                                         </Button>
                                     </div>
                                 </div>
-                                <div className='projectImageDiv'>
-                                    <img></img>
+                                <div className='projectVideoDiv'>
+                                <video className='projectVideo'
+                                           controls>
+                                        <source
+                                            type='video/mp4'
+                                            src={BoardgameVideo}
+                                            />
+                                    </video>
                                 </div>
                             </div>
                         </Carousel.Item>

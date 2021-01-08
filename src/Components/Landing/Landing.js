@@ -11,6 +11,7 @@ import './Landing.css'
 function Landing(){
     return(
         <div>
+            <div className='landing'></div>
             <Header/>
             <AboutMe/>
             <Skills/>
